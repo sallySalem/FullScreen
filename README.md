@@ -6,7 +6,7 @@ There are different ways to handel the fullscreen (without System bar or behind 
 - Behind the System Bar
   - [Edge-To-Edge](https://github.com/sallySalem/FullScreen#edge-to-edge)
   - [WindowInsetsListener](https://github.com/sallySalem/FullScreen#windowinsetslistener)
-  - [Layout behaviour](https://github.com/sallySalem/FullScreen#layout-behaviour)
+  - [Layout behavior](https://github.com/sallySalem/FullScreen#layout-behaviour)
 
 ## Fullscreen without systembar
 ### Immsersive mode
@@ -84,7 +84,7 @@ To reset
  
 ----
 
-### Layout behaviour
+### Layout behavior using CoordinatorLayout
 
 <img align="right" width="200" height="400" src="https://user-images.githubusercontent.com/2602891/185850489-486033e3-b592-4454-b159-7e87a77aae0f.png">
 
@@ -120,6 +120,12 @@ app:layout_behavior="@string/appbar_scrolling_view_behavior"
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
+Set transperant statusbar
+
+```kotlin 
+window.statusBarColor = Color.TRANSPARENT
+
+```
 ----
 ----
 
