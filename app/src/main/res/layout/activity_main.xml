@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/butImmersive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Immersive"
+        app:layout_constraintBottom_toTopOf="@+id/butEdgeToEdge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butEdgeToEdge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butEdgeToEdge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edge To Edge"
+        app:layout_constraintBottom_toTopOf="@+id/butWindowInsets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butWindowInsets"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butImmersive" />
+
+    <Button
+        android:id="@+id/butWindowInsets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Window Insets"
+        app:layout_constraintBottom_toTopOf="@+id/butTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butEdgeToEdge" />
+
+
+    <Button
+        android:id="@+id/butTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butImmersive" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
