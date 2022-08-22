@@ -11,6 +11,7 @@ bin/
 gen/
 out/
 app/release/
+/misc.xml
 
 # Gradle files
 .gradle/
@@ -46,17 +47,6 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
 
 #NDK
 *.so
