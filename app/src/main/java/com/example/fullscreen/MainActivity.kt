@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, WindowInsetsActivity::class.java))
         }
 
-        findViewById<Button>(R.id.butTheme).setOnClickListener {
-
+        findViewById<Button>(R.id.butLayoutBehaviour).setOnClickListener {
+            startActivity(Intent(this, LayoutBehaviorActivity::class.java))
         }
     }
 }
