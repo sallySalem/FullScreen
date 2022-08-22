@@ -2,11 +2,11 @@
 There are different ways to handel the fullscreen (without System bar or behind the System Bar)
 
 - Without System bar
-  - [Immsersive mode](https://github.com/sallySalem/FullScreen/new/read-me#immsersive-mode)
+  - [Immsersive mode](https://github.com/sallySalem/FullScreen#immsersive-mode)
 - Behind the System Bar
-  - [Edge-To-Edge](https://github.com/sallySalem/FullScreen/new/read-me#edge-to-edge)
-  - [WindowInsetsListener](https://github.com/sallySalem/FullScreen/new/read-me#windowinsetslistener)
-  - [Layout behaviour](https://github.com/sallySalem/FullScreen/new/read-me#layout-behaviour)
+  - [Edge-To-Edge](https://github.com/sallySalem/FullScreen#edge-to-edge)
+  - [WindowInsetsListener](https://github.com/sallySalem/FullScreen#windowinsetslistener)
+  - [Layout behaviour](https://github.com/sallySalem/FullScreen#layout-behaviour)
 
 ## Fullscreen without systembar
 ### Immsersive mode
