@@ -34,18 +34,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Window Insets"
-        app:layout_constraintBottom_toTopOf="@+id/butTheme"
+        app:layout_constraintBottom_toTopOf="@+id/butLayoutBehaviour"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/butTheme"
+        app:layout_constraintStart_toEndOf="@+id/butLayoutBehaviour"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butEdgeToEdge" />
 
 
     <Button
-        android:id="@+id/butTheme"
+        android:id="@+id/butLayoutBehaviour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theme"
+        android:text="Layout Behaviour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

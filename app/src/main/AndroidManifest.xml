@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullScreen">
         <activity
+            android:name=".LayoutBehaviorActivity"
+            android:exported="false" />
+        <activity
             android:name=".WindowInsetsActivity"
             android:exported="false" />
         <activity
