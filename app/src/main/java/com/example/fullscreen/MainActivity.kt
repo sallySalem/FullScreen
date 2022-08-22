@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.butWindowInsets).setOnClickListener {
-
+            startActivity(Intent(this, WindowInsetsActivity::class.java))
         }
 
         findViewById<Button>(R.id.butTheme).setOnClickListener {
