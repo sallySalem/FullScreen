@@ -6,7 +6,7 @@ There are different ways to handel the fullscreen (without System bar or behind 
 - Behind the System Bar
   - [Edge-To-Edge](https://github.com/sallySalem/FullScreen#edge-to-edge)
   - [WindowInsetsListener](https://github.com/sallySalem/FullScreen#windowinsetslistener)
-  - [Layout behavior](https://github.com/sallySalem/FullScreen#layout-behaviour)
+  - [Layout behavior](https://github.com/sallySalem/FullScreen#layout-behavior-using-coordinatorlayout)
 
 ## Fullscreen without systembar
 ### Immsersive mode
