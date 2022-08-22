@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".ImmersiveActivity">
+    tools:context=".EdgeToEdgeActivity">
 
     <Button
         android:id="@+id/butFullScreen"
@@ -31,4 +31,3 @@
         app:layout_constraintTop_toBottomOf="@+id/butFullScreen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

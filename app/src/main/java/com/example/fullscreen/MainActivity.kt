@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.butEdgeToEdge).setOnClickListener {
-
+            startActivity(Intent(this, EdgeToEdgeActivity::class.java))
         }
 
         findViewById<Button>(R.id.butWindowInsets).setOnClickListener {
