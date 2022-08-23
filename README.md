@@ -1,5 +1,5 @@
 # FullScreen
-There are different ways to handel the fullscreen (without System bar or behind the System Bar)
+There are different ways to display the fullscreen (without System bar or behind the System Bar)
 
 - Without System bar
   - [Immsersive mode](https://github.com/sallySalem/FullScreen#immsersive-mode)
