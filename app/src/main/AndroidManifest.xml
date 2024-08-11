@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullScreen">
         <activity
+            android:name=".EdgeToEdgeActivity2"
+            android:exported="false" />
+         <activity
             android:name=".LayoutBehaviorActivity"
             android:exported="false" />
         <activity
