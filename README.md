@@ -17,7 +17,7 @@ WindowInsetsControllerCompat(window, window.decorView)
 
 windowInsets.hide(WindowInsetsCompat.Type.systemBars())
 windowInsets.systemBarsBehavior =
-   WindowInsetsControllerCompat.BEHAVIOR_SHOW_BARS_BY_SWIPE
+   WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
    ```
 
 
@@ -53,6 +53,17 @@ WindowCompat
  <br/>
 
 https://user-images.githubusercontent.com/2602891/185849851-892168aa-9c58-490e-b262-89127e527bb7.mov
+
+
+ <br/>
+
+**[Update] Application targets SDK is 35 or later**
+
+Use `enableEdgeToEdge()` automatically support edge-to-edge and handle the color of the system bars.
+```kotlin
+enableEdgeToEdge()
+```
+
 
 -----
 
