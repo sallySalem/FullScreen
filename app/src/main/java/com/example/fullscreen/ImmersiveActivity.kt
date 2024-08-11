@@ -19,7 +19,7 @@ class ImmersiveActivity : AppCompatActivity() {
         findViewById<Button>(R.id.butFullScreen).setOnClickListener {
             windowInsets.hide(WindowInsetsCompat.Type.systemBars())
             windowInsets.systemBarsBehavior =
-                WindowInsetsControllerCompat.BEHAVIOR_SHOW_BARS_BY_SWIPE
+                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
         }
 
         findViewById<Button>(R.id.butNormal).setOnClickListener {
